@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main(){ // Level01 EX:07
+    int n, m;
+    printf("Enter the number of lines of matrice:");
+    scanf("%d", &n);
+    printf("Enter the number of colomns of matrice:");
+    scanf("%d", &m);
+    int a[n][m];
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("line%d/colomn%d:", i, j);
+            scanf("%d", &a[i][j]);
+        }
+    }
+    printf("The Matrice:\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("%d", a[i][j]);
+            printf("\t");
+        }
+        printf("\n");
+    }
+    printf("The Transpose Matrice:\n");
+    for (int j = 0; j < m; j++) {
+        for (int i = 0; i < n; i++) {
+            printf("%d", a[i][j]);
+            printf("\t");
+        }
+        printf("\n");
+    }
+    return 0;
+}
