@@ -1,6 +1,7 @@
 Solving advanced matrix problems in C to build strong low-level logic for autonomous systems and cybersecurity
 
 🗺 Matrix Roadmap (50 Exercises)
+
 Level 1: Matrix Fundamentals and Manipulation (Exercises 1-15): Reading, Printing, Basic Calculations, Square and Rectangular Matrices.
 
 Level 2: Advanced Cell and Loop Manipulation (Exercises 16-30): Diagonals, Triangles, Swaps, Flags, and Searches.
